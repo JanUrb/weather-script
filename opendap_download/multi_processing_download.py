@@ -178,7 +178,7 @@ class DownloadManager(object):
             log.debug(list(auth_cookie_jar)[1])
 
         except urllib.error.HTTPError:
-            raise ValueError('Username and or Password are not correct!')
+            raise ValueError('Example link in your browser for more information')
         except IOError as e:
             log.warning(e)
             raise IOError
